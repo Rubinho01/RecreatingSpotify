@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/assets/styles/vars.css">
+    <link rel="stylesheet" href="./src/assets/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/assets/styles/main-content.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
 
@@ -15,7 +17,7 @@
         <nav class="sidebar_navigation">
             <div class="logo">
                 <a href="">
-                    <img src="assets/icons/logo-spotify.png" alt="Logo Spotify">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="Logo Spotify">
                 </a>
             </div>
                     <ul>
@@ -61,8 +63,31 @@
                 </button>
             </div>
         </div>
-        
     </div>
+    <main>
+        <div class="main-container">
+            <nav class="header-navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="seta da esqueda">
+                    </button>
+                <div class="navigation">
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="seta da direita">
+                    </button>
+                </div>
+                </div>
+                <div class="header-search">
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+                </div>
+                <div class="header-login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+        </div>
+    </main>
     <footer>
         <div class="text">
             <span class="title">Testar o premuim de graça</span>
@@ -72,6 +97,7 @@
             <span>Inscreva-se grátis</span>
         </button>
     </footer>
+   
 </body>
 
 
