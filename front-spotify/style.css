@@ -149,3 +149,45 @@ body {
     border-radius: 20px;
 
 }
+
+
+footer {
+    background-image: linear-gradient(to right,rgb(207, 66, 207),rgb(103, 103, 255));
+    bottom: 0;
+    padding: 15px 0px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+    color: #fff;
+
+}
+
+footer button {
+    border: transparent;
+    border-radius: 30px;
+    padding-block: 15px;
+    padding-inline: 30px;
+    margin-right: 50px;
+    font-family: sans-serif;
+    font-weight:900;
+}
+footer .text .title{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #f2f2f2;
+}
+footer .text .subtitle{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #f2f2f2;
+}
