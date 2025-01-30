@@ -78,7 +78,7 @@
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
-    margin-right: 32px;
+    margin-right: 32px;  
 }
 
 .header-login .login{
@@ -88,4 +88,30 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+    
+}
+
+.main-content{
+    background-color: #121212;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    padding-top: 50px;
+}
+.main-content .main-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: ;
+}
+.main-content .main-text .title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.main-content .main-text .subtitle{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
 }
